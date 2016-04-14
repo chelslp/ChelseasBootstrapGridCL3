@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Grid Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grid.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <body>
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Bootstrap grid examples</h1>
+        <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+      </div>
+
+	<div class="panel panel-default">
+		 <div class="panel-heading">
+		   <h3 class="panel-title">Two column layout with white space</h3>
+		 </div>
+		 <div class="panel-body">
+		    Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.
+		 </div>
+	</div>
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-1 align-center">
+          <h2>Project 1</h2>
+          <p>Cornhole pug freegan lomo, ennui paleo bicycle rights marfa organic tousled disrupt swag chartreuse. Kitsch lo-fi heirloom salvia, lumbersexual shabby chic humblebrag jean shorts tilde cliche chillwave banjo umami intelligentsia art party. Hoodie tumblr knausgaard, neutra tote bag cold-pressed meggings man braid pug small batch skateboard. Gentrify kombucha salvia, fanny pack neutra selvage farm-to-table. Hoodie kombucha deep v, chartreuse schlitz shoreditch pabst neutra polaroid authentic freegan disrupt. Bitters 90's tilde tofu twee, drinking vinegar beard kogi cardigan gluten-free mixtape. You probably haven't heard of them humblebrag DIY, microdosing biodiesel YOLO seitan twee.</p>
+        </div>
+        <div class="col-md-4 col-md-offset-2">
+          <h2>Project 2</h2>
+          <p>Meh four dollar toast tofu tacos bitters four loko, celiac vinyl mustache trust fund semiotics kinfolk leggings. Brunch synth quinoa, messenger bag tousled humblebrag pop-up microdosing. Mumblecore semiotics pickled, food truck small batch viral normcore aesthetic raw denim flannel bespoke. Street art yuccie you probably haven't heard of them gastropub. Listicle church-key affogato, 90's stumptown lomo man braid drinking vinegar wolf freegan. Wolf forage tacos pork belly selvage PBR&B twee flannel +1, kickstarter XOXO four loko truffaut. Quinoa DIY cliche, fingerstache kinfolk scenester selvage.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-1">
+          <h2>Project 3</h2>
+          <p>Chartreuse church-key bespoke, kombucha chillwave banh mi gastropub photo booth banjo seitan. Godard scenester chillwave humblebrag. Raw denim YOLO messenger bag, trust fund chillwave pour-over fap mumblecore gluten-free. Squid pinterest blog vice hella street art, mlkshk four dollar toast cliche single-origin coffee post-ironic tumblr. Vegan waistcoat meggings VHS hashtag. Hella austin fanny pack, messenger bag cronut humblebrag cliche crucifix chambray. Selfies schlitz ennui brooklyn tattooed dreamcatcher.</p>
+        </div>
+      </div>
+
+      <h3>Three unequal columns</h3>
+      <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
+      <div class="row">
+        <div class="col-md-3">.col-md-3</div>
+        <div class="col-md-6">.col-md-6</div>
+        <div class="col-md-3">.col-md-3</div>
+      </div>
+
+      <h3>Two columns</h3>
+      <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
+      <div class="row">
+        <div class="col-md-8">.col-md-8</div>
+        <div class="col-md-4">.col-md-4</div>
+      </div>
+
+      <h3>Full width, single column</h3>
+      <p class="text-warning">No grid classes are necessary for full-width elements.</p>
+
+      <hr>
+
+      <h3>Two columns with two nested columns</h3>
+      <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns <strong>starting at desktops and scaling to large desktops</strong>, with another two (equal widths) within the larger column.</p>
+      <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+      <div class="row">
+        <div class="col-md-8">
+          .col-md-8
+          <div class="row">
+            <div class="col-md-6">.col-md-6</div>
+            <div class="col-md-6">.col-md-6</div>
+          </div>
+        </div>
+        <div class="col-md-4">.col-md-4</div>
+      </div>
+
+      <hr>
+
+      <h3>Mixed: mobile and desktop</h3>
+      <p>The Bootstrap 3 grid system has four tiers of classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+      <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+      <div class="row">
+        <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">.col-xs-6</div>
+        <div class="col-xs-6">.col-xs-6</div>
+      </div>
+
+      <hr>
+
+      <h3>Mixed: mobile, tablet, and desktop</h3>
+      <p></p>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-8">.col-xs-12 .col-sm-6 .col-lg-8</div>
+        <div class="col-xs-6 col-lg-4">.col-xs-6 .col-lg-4</div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+      </div>
+
+      <hr>
+
+      <h3>Column clearing</h3>
+      <p><a href="http://getbootstrap.com/css/#grid-responsive-resets">Clear floats</a> at specific breakpoints to prevent awkward wrapping with uneven content.</p>
+      <div class="row">
+        <div class="col-xs-6 col-sm-3">
+          .col-xs-6 .col-sm-3
+          <br>
+          Resize your viewport or check it out on your phone for an example.
+        </div>
+        <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+
+        <!-- Add the extra clearfix for only the required viewport -->
+        <div class="clearfix visible-xs"></div>
+
+        <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+      </div>
+
+      <hr>
+
+      <h3>Offset, push, and pull resets</h3>
+      <p>Reset offsets, pushes, and pulls at specific breakpoints.</p>
+      <div class="row">
+        <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
+        <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
+        <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
+      </div>
+
+
+    </div> <!-- /container -->
+
+ <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- bootstrap.min.js -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
